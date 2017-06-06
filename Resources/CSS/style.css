@@ -30,6 +30,7 @@ body {
   justify-content: space-around;
   width: 500px;
   text-decoration: underline;
+  color: seashell;
 }
 
 a:visited{
