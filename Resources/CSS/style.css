@@ -33,13 +33,12 @@ body {
   color: seashell;
 }
 
-a:visited{
+a, a:visited{
   color: seashell;
 }
 
 .pages{
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -88,7 +87,7 @@ a:visited{
 
 .container-locations{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 15px;
   align-items: center;
 }
