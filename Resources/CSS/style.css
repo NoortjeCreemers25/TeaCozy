@@ -61,13 +61,17 @@ a, a:visited{
 .featured-tea{
   width: 1000px;
   justify-content: center;
-  margin: 80px 0;
+  padding: 70px 0;
 }
 
 .teas{
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.tea{
+  padding: 5px;
 }
 
 .tea img{
@@ -81,23 +85,25 @@ a, a:visited{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   width: 1200px;
   height: 500px;
-  margin-left: 20px;
   text-align: center;
+  padding-top: 70px;
 }
 
 .container-locations{
   display: flex;
   justify-content: center;
-  margin-top: 15px;
   align-items: center;
 }
 
 .location{
   width: 300px;
-  height: 300px;
-  margin: 40px;
+  margin: 5px 20px;
   background-color: black;
   opacity: 1;
+}
+
+.location p{
+  padding: 10px;
 }
 
 .footer{
@@ -114,4 +120,6 @@ a, a:visited{
 
 h2, h3, h4, h5, span{
   font-weight: bold;
+  margin: 0;
+  padding: 10px;
 }
